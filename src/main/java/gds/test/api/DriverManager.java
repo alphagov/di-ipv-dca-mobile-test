@@ -1,7 +1,10 @@
+package gds.test.api;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.options.CanSetCapability;
+import pageObjects.iOS.BasePage;
 
 public class DriverManager extends BasePage {
 

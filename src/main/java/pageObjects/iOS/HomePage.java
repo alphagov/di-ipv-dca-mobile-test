@@ -1,8 +1,8 @@
-package deloitte.qte.examples.cucumberJUnit.pageObjects;
+package pageObjects.iOS;
 
 public class HomePage extends BasePage {
 
-    String URL = "https://google.com";
+    String URL = "";
 
 
     public HomePage() {

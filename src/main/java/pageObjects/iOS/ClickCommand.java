@@ -1,10 +1,12 @@
+package pageObjects.iOS;
+
 import io.appium.java_client.ios.IOSDriver;
 
 public class ClickCommand extends BasePage {
 
     public static void clickCommand() throws Exception {
 
-        IOSDriver driver = DriverCapabilities();
+        IOSDriver driver = BasePage.DriverCapabilities();
         driver.findElementByAccessibilityId("Alert Views").click();
 
         //To create own xpath it's: tagname[@attribute='value']

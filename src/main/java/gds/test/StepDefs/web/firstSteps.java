@@ -1,4 +1,4 @@
-
+package gds.test.StepDefs.web;
 
 import deloitte.qte.examples.cucumberJUnit.pageObjects.HomePage;
 import io.cucumber.java8.En;
@@ -14,6 +14,7 @@ public class firstSteps implements En {
         Given("I load the google homepage", () -> {
             homePage.goTo();
         });
+
 
     }
 

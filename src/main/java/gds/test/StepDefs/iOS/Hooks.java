@@ -1,4 +1,4 @@
-package deloitte.qte.examples.cucumberJUnit.StepDefs;
+package gds.test.StepDefs.iOS;
 
 import io.cucumber.java8.En;
 

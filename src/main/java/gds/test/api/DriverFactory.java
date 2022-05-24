@@ -1,4 +1,4 @@
-package deloitte.qte.examples.cucumberJUnit.config;
+package gds.test.api;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

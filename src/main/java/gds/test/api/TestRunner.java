@@ -1,4 +1,4 @@
-package deloitte.qte.examples.cucumberJUnit.selenium;
+package gds.test.api;
 
 import io.cucumber.junit.Cucumber;
 
@@ -7,10 +7,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@jack",
+        tags = "@test",
         plugin = {"json:target/cucumber-report/cucumber.json"},
         features = "classpath:features",
-        glue = {"deloitte.cucumber.example.StepDefs"}
+        glue = {"src.main.java.gds.test.StepDefs"}
 )
 public class TestRunner {
+
 }

@@ -1,6 +1,6 @@
 package deloitte.qte.examples.cucumberJUnit.pageObjects;
 
-import deloitte.qte.examples.cucumberJUnit.config.DriverFactory;
+import gds.test.api.DriverFactory;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -19,8 +19,8 @@ public class BasePage{
     }
 
     public WebElement find(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, 15);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+//        WebDriverWait wait = new WebDriverWait(driver, 15);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return driver.findElement(locator);
     }
 
