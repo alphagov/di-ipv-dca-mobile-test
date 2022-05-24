@@ -1,7 +1,6 @@
 package gds.test.StepDefs.web;
-
-import deloitte.qte.examples.cucumberJUnit.pageObjects.HomePage;
 import io.cucumber.java8.En;
+import pageObjects.android.HomePage;
 
 public class firstSteps implements En {
 
