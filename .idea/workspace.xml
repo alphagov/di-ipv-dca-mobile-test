@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/di-dca-mobile-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" afterDir="false" />
@@ -35,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/FraudCRI.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/PassportDetails.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-ipv-dca-mobile-test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,12 +161,12 @@
       <command value="gradle install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system">
-    <configuration name="Scenario: E2E with Oauth and BE system (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system (1)">
+    <configuration name="Scenario: E2E with Oauth and BE system (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="di-dca-mobile-test.test" />
+      <module name="org.example.di-dca-mobile-test.test" />
       <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
@@ -309,19 +304,19 @@
     <list>
       <item itemvalue="JUnit.APITestRunner" />
       <item itemvalue="Maven.GDSMobileFrameworkProj [mvn,clean]" />
-      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
       <item itemvalue="Gradle./Users/mmikely/workspace/Mobile_Framework/di-ipv-dca-mobile-test [build]" />
       <item itemvalue="Gradle.di-dca-mobile-test [build]" />
       <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
       <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
         <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
         <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
         <item itemvalue="Gradle.di-dca-mobile-test [build]" />
         <item itemvalue="Gradle./Users/mmikely/workspace/Mobile_Framework/di-ipv-dca-mobile-test [build]" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
       </list>
     </recent_temporary>
   </component>
