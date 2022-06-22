@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" afterDir="false" />
@@ -299,7 +302,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/updating_the_main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
