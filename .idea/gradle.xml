@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="GradleMigrationSettings" migrationVersion="1" />
+=======
+>>>>>>> 61689e8f99586a1066dc85b7ea0b163f98421f7f
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/di-ipv-dca-mobile-test" />
+<<<<<<< HEAD
         <option name="gradleJvm" value="openjdk-18" />
+=======
+>>>>>>> 61689e8f99586a1066dc85b7ea0b163f98421f7f
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/di-ipv-dca-mobile-test" />
