@@ -2,7 +2,15 @@ Feature: E2E Scenario FE Journey
 
   @web
   Scenario: E2E with FE and BE system
-    Given I navigate to the authorize homepage
-    When I click the continue button on
-    And I click the Fraud CRI Integration option
-    Then I search for user number 12 in the Experian table
+    Given the user navigates to the authorize homepage
+    When the user clicks on the continue button
+    Then the user is presented with the flashing colours screen
+    When the user clicks YES and continue to flashing colours screen
+    Then the user is taken to the valid license confirmation screen
+    When the user clicks YES and continue to the valid license screen
+    Then the user is presented with workable camera screen
+    When the user clicks YES and continue to the workable camera screen
+    Then the user is presented with the ready to begin screen
+    And the user selects YES and continue to the ready to begin screen
+    Then the user is presented with the download page
+    And the user is directed back to HMRC

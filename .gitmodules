@@ -1,0 +1,3 @@
+[submodule "di-dca-mobile-test"]
+	path = di-dca-mobile-test
+	url = https://github.com/alphagov/di-ipv-dca-mobile-test
