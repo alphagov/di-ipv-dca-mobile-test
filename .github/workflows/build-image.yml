@@ -23,7 +23,7 @@ jobs:
       contents: read
       packages: write
     env:
-      GHCR_REPO: ghcr.io/alphagov/di/di-dca-mobile-test
+      GHCR_REPO: ghcr.io/alphagov/di/di-ipv-dca-mobile-test
     steps:
       - name: Checkout
         uses: actions/checkout@v2
