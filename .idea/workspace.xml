@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" afterDir="false" />
@@ -92,7 +91,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="updateMain" />
         <entry key="$PROJECT_DIR$/di-dca-mobile-test" value="add_in_FE_Scenarios" />
         <entry key="$PROJECT_DIR$/di-ipv-dca-mobile-test" value="testRun" />
       </map>
@@ -342,7 +341,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/updateMain" />
                       </list>
                     </value>
                   </entry>
