@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/FraudPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/Headers.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/Headers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/HttpSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/PassportDetailsPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/E2EScenariosBEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosBEStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/FraudStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/GET_Authorize_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/PassportDetailsStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/PassportAPIGlobals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/FraudCRI.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/PassportDetails.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/di-dca-mobile-test">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/di-ipv-dca-mobile-test">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/di-ipv-dca-mobile-test">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/di-dca-mobile-test">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="di-dca-mobile-test" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="di-dca-mobile-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="di-dca-mobile-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/di-dca-mobile-test" value="add_in_FE_Scenarios" />
+        <entry key="$PROJECT_DIR$/di-ipv-dca-mobile-test" value="testRun" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/di-dca-mobile-test" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/runners/TestRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/Headers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/HttpSession.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/ConfigurationReader.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="28eEsHEClChew9p5weV1CVrDjQ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17888889" />
+    <property name="project.structure.side.proportion" value="0.13351136" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/gds/test/StepDefs/web" />
+      <recent name="$PROJECT_DIR$/src/test/java/API" />
+      <recent name="$PROJECT_DIR$/src/main/java/StepDefs" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/Mobile" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn test" />
+      <command value="mvn cluecumber-report:reporting" />
+      <command value="mvn -e" />
+      <command value="mvn clean" />
+      <command value="gradle install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system (1)">
+    <configuration name="Scenario: E2E with Oauth and BE system (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="org.example.di-dca-mobile-test.test" />
+      <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: E2E with Oauth and BE system" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GDSMobileFrameworkProj" />
+      <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mmikely/workspace/Mobile_Framework/di-ipv-dca-mobile-test [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/di-ipv-dca-mobile-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="di-dca-mobile-test [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/di-dca-mobile-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="di-dca-mobile-test [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/di-dca-mobile-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="APITestRunner" type="JUnit" factoryName="JUnit">
+      <module name="GDSMobileFramework" />
+      <option name="PACKAGE_NAME" value="gds.test.api" />
+      <option name="MAIN_CLASS_NAME" value="gds.test.api.TestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-DfailIfNoTests=false -Dcucumber.filter.tags='@test'" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GDSMobileFrameworkProj [mvn,clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.APITestRunner" />
+      <item itemvalue="Maven.GDSMobileFrameworkProj [mvn,clean]" />
+      <item itemvalue="Gradle./Users/mmikely/workspace/Mobile_Framework/di-ipv-dca-mobile-test [build]" />
+      <item itemvalue="Gradle.di-dca-mobile-test [build]" />
+      <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
+        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
+        <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
+        <item itemvalue="Gradle.di-dca-mobile-test [build]" />
+        <item itemvalue="Gradle./Users/mmikely/workspace/Mobile_Framework/di-ipv-dca-mobile-test [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="" />
+      <created>1651568857898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651568857898</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/di-dca-mobile-test/build.gradle</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
