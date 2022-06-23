@@ -5,58 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/build-image.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/dailySmokeTest.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/.github/workflows/gradleBuildTest.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/FraudPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/Headers.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/Headers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/HttpSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/PassportDetailsPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/E2EScenariosBEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosBEStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/FraudStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/GET_Authorize_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/step_definitions/PassportDetailsStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_ipv_fraud/utilities/PassportAPIGlobals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/FraudCRI.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/PassportDetails.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/axe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/API/E2EScenarioBE.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/API/VerifyAuthGETRequest.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/E2EScenarioFE.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/resources/axe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/resources/features/API/E2EScenarioBE.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/resources/features/API/VerifyAuthGETRequest.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/resources/features/E2EScenarioFE.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -119,18 +84,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/runners/TestRunner.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/Headers.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/VerifyAuthGETRequest.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/HttpSession.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/E2EScenarioFE.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/di-dca-mobile-test/src/test/java/gov/di_dca_mobile/utilities/ConfigurationReader.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="28eEsHEClChew9p5weV1CVrDjQ0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -145,10 +98,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17888889" />
     <property name="project.structure.side.proportion" value="0.13351136" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,10 +124,11 @@
       <command value="mvn cluecumber-report:reporting" />
       <command value="mvn -e" />
       <command value="mvn clean" />
+      <command value="gradle dependencies" />
       <command value="gradle install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system (2)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system (3)">
     <configuration name="Scenario: E2E with Oauth and BE system (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
@@ -213,14 +167,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: E2E with Oauth and BE system" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: E2E with Oauth and BE system (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="GLUE" value="gov.di_dca_mobile.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="GDSMobileFrameworkProj" />
+      <module name="Mobile_Framework.test" />
       <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -233,42 +187,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="di-dca-mobile-test [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mobile_Framework [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/di-dca-mobile-test" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="dependencies" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="di-dca-mobile-test [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mobile_Framework [install]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/di-dca-mobile-test" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="install" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -360,21 +314,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
       <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
-      <item itemvalue="Gradle.di-dca-mobile-test [build]" />
-      <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
       <item itemvalue="JUnit.APITestRunner" />
       <item itemvalue="Maven.GDSMobileFrameworkProj [mvn,clean]" />
       <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
+      <item itemvalue="Gradle.Mobile_Framework [install]" />
+      <item itemvalue="Gradle.Mobile_Framework [dependencies]" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
+        <item itemvalue="Gradle.Mobile_Framework [dependencies]" />
+        <item itemvalue="Gradle.Mobile_Framework [install]" />
         <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
         <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system" />
-        <item itemvalue="Gradle.di-dca-mobile-test [clean]" />
-        <item itemvalue="Gradle.di-dca-mobile-test [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -445,6 +399,12 @@
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/GDSMobileFramework$Scenario__Unhappy_Path___no_redirect_uri_available_within_the_request.ic" NAME="Scenario: Unhappy Path - no redirect uri available within the request Coverage Results" MODIFIED="1655913470154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__2_.ic" NAME="Scenario: E2E with Oauth and BE system (2) Coverage Results" MODIFIED="1655923509431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1655924273195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
   </component>

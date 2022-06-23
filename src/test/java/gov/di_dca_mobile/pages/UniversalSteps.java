@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class UniversalSteps {
 
-    @FindBy (xpath = "buttonName'Continue") public WebElement continueButton;
+    @FindBy (xpath = "//button[contains(text(),'Continue')]\"") public WebElement continueButton;
 
     public void waitForFiveSeconds() {
         BrowserUtils.waitForPageToLoad(5);
