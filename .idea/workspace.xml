@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,7 +452,7 @@
     <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1655981829032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system.ic" NAME="Scenario: E2E with FE and BE system Coverage Results" MODIFIED="1656058460397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system.ic" NAME="Scenario: E2E with FE and BE system Coverage Results" MODIFIED="1656058672975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system_checking_the_details_of_all_pages.ic" NAME="Scenario: E2E with FE and BE system checking the details of all pages Coverage Results" MODIFIED="1656057157623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
