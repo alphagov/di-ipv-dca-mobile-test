@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-dca-mobile-test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mobile_Framework" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mobile_Framework" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mobile_Framework" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -98,10 +112,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17888889" />
     <property name="project.structure.side.proportion" value="0.13351136" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,15 +142,16 @@
       <command value="gradle install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with Oauth and BE system (3)">
-    <configuration name="Scenario: E2E with Oauth and BE system (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with FE and BE system">
+    <configuration name="Scenario: E2E with FE and BE system checking the details of all pages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" />
+      <option name="GLUE" value="gov.di_dca_mobile.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="org.example.di-dca-mobile-test.test" />
-      <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
+      <module name="Mobile_Framework.test" />
+      <option name="NAME_FILTER" value="^E2E with FE and BE system checking the details of all pages$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with FE and BE system checking the details of all pages$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: E2E with FE and BE system checking the details of all pages" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,14 +163,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: E2E with Oauth and BE system (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: E2E with FE and BE system" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/di-dca-mobile-test/src/test/resources/features/API/E2EScenarioBE.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" />
+      <option name="GLUE" value="gov.di_dca_mobile.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="di-dca-mobile-test.test" />
-      <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
+      <module name="Mobile_Framework.test" />
+      <option name="NAME_FILTER" value="^E2E with FE and BE system$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with FE and BE system$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: E2E with FE and BE system" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -187,42 +203,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mobile_Framework [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mobile_Framework [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="build" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Mobile_Framework [install]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mobile_Framework [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="install" />
+            <option value="clean" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -314,21 +330,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
       <item itemvalue="JUnit.APITestRunner" />
       <item itemvalue="Maven.GDSMobileFrameworkProj [mvn,clean]" />
-      <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
-      <item itemvalue="Gradle.Mobile_Framework [install]" />
-      <item itemvalue="Gradle.Mobile_Framework [dependencies]" />
       <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system" />
+      <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system checking the details of all pages" />
+      <item itemvalue="Gradle.Mobile_Framework [build]" />
+      <item itemvalue="Gradle.Mobile_Framework [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system" />
+        <item itemvalue="Gradle.Mobile_Framework [clean]" />
+        <item itemvalue="Gradle.Mobile_Framework [build]" />
+        <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system checking the details of all pages" />
         <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
-        <item itemvalue="Gradle.Mobile_Framework [dependencies]" />
-        <item itemvalue="Gradle.Mobile_Framework [install]" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (2)" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +391,41 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -404,7 +455,13 @@
     <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__2_.ic" NAME="Scenario: E2E with Oauth and BE system (2) Coverage Results" MODIFIED="1655923509431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1655924273195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1655981829032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system.ic" NAME="Scenario: E2E with FE and BE system Coverage Results" MODIFIED="1656058460397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system_checking_the_details_of_all_pages.ic" NAME="Scenario: E2E with FE and BE system checking the details of all pages Coverage Results" MODIFIED="1656057157623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
   </component>
