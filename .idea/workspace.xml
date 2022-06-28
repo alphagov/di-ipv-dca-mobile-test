@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosBEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosBEStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
