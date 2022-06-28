@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35981a07-7aa4-4620-9805-9b86889a453b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/AuthorizePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/pages/UniversalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/E2EScenariosFEStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/di_dca_mobile/step_definitions/GET_Authorize_StepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,27 +137,7 @@
       <command value="gradle install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: E2E with FE and BE system">
-    <configuration name="Scenario: E2E with FE and BE system checking the details of all pages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" />
-      <option name="GLUE" value="gov.di_dca_mobile.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Mobile_Framework.test" />
-      <option name="NAME_FILTER" value="^E2E with FE and BE system checking the details of all pages$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with FE and BE system checking the details of all pages$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: E2E with FE and BE system checking the details of all pages" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Happy Path - Auth to send a valid JWT token on request">
     <configuration name="Scenario: E2E with FE and BE system" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/E2EScenarioFE.feature" />
@@ -192,6 +167,26 @@
       <option name="NAME_FILTER" value="^E2E with Oauth and BE system$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^E2E with Oauth and BE system$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: E2E with Oauth and BE system" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Happy Path - Auth to send a valid JWT token on request" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/API/VerifyAuthGETRequest.feature" />
+      <option name="GLUE" value="gov.di_dca_mobile.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Mobile_Framework.test" />
+      <option name="NAME_FILTER" value="^Happy Path \- Auth to send a valid JWT token on request$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path \- Auth to send a valid JWT token on request$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Happy Path - Auth to send a valid JWT token on request" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -334,17 +329,17 @@
       <item itemvalue="Maven.GDSMobileFrameworkProj [mvn,clean]" />
       <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
       <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system" />
-      <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system checking the details of all pages" />
       <item itemvalue="Gradle.Mobile_Framework [build]" />
       <item itemvalue="Gradle.Mobile_Framework [clean]" />
+      <item itemvalue="Cucumber Java.Scenario: Happy Path - Auth to send a valid JWT token on request" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Happy Path - Auth to send a valid JWT token on request" />
         <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system" />
+        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
         <item itemvalue="Gradle.Mobile_Framework [clean]" />
         <item itemvalue="Gradle.Mobile_Framework [build]" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with FE and BE system checking the details of all pages" />
-        <item itemvalue="Cucumber Java.Scenario: E2E with Oauth and BE system (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -449,16 +444,19 @@
     <SUITE FILE_PATH="coverage/GDSMobileFramework$Scenario__Unhappy_Path___no_query_parameters_added.ic" NAME="Scenario: Unhappy Path - no query parameters added Coverage Results" MODIFIED="1655913545135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__Happy_Path___Auth_to_send_a_valid_JWT_token_on_request.ic" NAME="Scenario: Happy Path - Auth to send a valid JWT token on request Coverage Results" MODIFIED="1656333245296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/GDSMobileFramework$Scenario__Unhappy_Path___no_redirect_uri_available_within_the_request.ic" NAME="Scenario: Unhappy Path - no redirect uri available within the request Coverage Results" MODIFIED="1655913470154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__2_.ic" NAME="Scenario: E2E with Oauth and BE system (2) Coverage Results" MODIFIED="1655923509431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1655981829032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_Oauth_and_BE_system__3_.ic" NAME="Scenario: E2E with Oauth and BE system (3) Coverage Results" MODIFIED="1656333092177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system.ic" NAME="Scenario: E2E with FE and BE system Coverage Results" MODIFIED="1656058460397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system.ic" NAME="Scenario: E2E with FE and BE system Coverage Results" MODIFIED="1656333142578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Mobile_Framework$Scenario__E2E_with_FE_and_BE_system_checking_the_details_of_all_pages.ic" NAME="Scenario: E2E with FE and BE system checking the details of all pages Coverage Results" MODIFIED="1656057157623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

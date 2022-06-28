@@ -1,5 +1,6 @@
 package gov.di_dca_mobile.step_definitions;
 
+import gov.di_dca_mobile.utilities.ConfigurationReader;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -23,7 +24,7 @@ public class E2EScenariosBEStepDefs {
 
     @Given("the verifyAuthorize request session is posted")
     public void theVerifyAuthorizeRequestSessionIsPosted() {
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI = ConfigurationReader.get("APIDev");
         RestAssured.given()
                 .accept(ContentType.JSON)
                 .queryParam("client_id", clientIdValue)
@@ -34,7 +35,7 @@ public class E2EScenariosBEStepDefs {
 
     @When("the status code is valid")
     public void theStatusCodeIsValid() {
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI =  ConfigurationReader.get("APIDev");
 //        System.out.println(System.getenv(String.valueOf(inputStream)));
         Response verifyAuthRequest =  RestAssured.given()
                 .queryParam("client_id", clientIdValue)
@@ -47,7 +48,7 @@ public class E2EScenariosBEStepDefs {
 
     @Then("the sessionId from the response body is taken and used in authorizationCode with valid status code")
     public void theSessionIdFromTheResponseBodyIsTakenAndUsedInAuthorizationCodeWithValidStatusCode() {
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI =  ConfigurationReader.get("APIDev");
 
         Response verifyAuthRequest =  RestAssured.given()
                 .accept(ContentType.JSON)
@@ -78,7 +79,7 @@ public class E2EScenariosBEStepDefs {
 
     @When("the authorizationCode from the response body is taken and used in token request with valid status code")
     public void theAuthorizationCodeFromTheResponseBodyIsTakenAndUsedInTokenRequestWithValidStatusCode() {
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI =  ConfigurationReader.get("APIDev");
 
         Response verifyAuthRequest =  RestAssured.given()
                 .accept(ContentType.JSON)
@@ -124,7 +125,7 @@ public class E2EScenariosBEStepDefs {
 
     @Then("the accessToken is retrieved from the response body and is used in userInfo request")
     public void theAccessTokenIsRetrievedFromTheResponseBodyAndIsUsedInUserInfoRequest() {
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI =  ConfigurationReader.get("APIDev");
 
         Response verifyAuthRequest =  RestAssured.given()
                 .accept(ContentType.JSON)
@@ -178,7 +179,7 @@ public class E2EScenariosBEStepDefs {
     @And("the sessionId from verifyAuthorize is used in finishBiometricSession endpoint")
     public void theSessionIdFromVerifyAuthorizeIsUsedInFinishBiometricSessionEndpoint() {
 
-        RestAssured.baseURI = "https://q43qqo64dg.execute-api.eu-west-2.amazonaws.com/dev";
+        RestAssured.baseURI =  ConfigurationReader.get("APIDev");
 
         Response verifyAuthRequest =  RestAssured.given()
                 .accept(ContentType.JSON)
