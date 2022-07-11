@@ -172,14 +172,30 @@ public class GET_Authorize_StepDefs {
                         .when().post(ConfigurationReader.get("APIDev") + "/verifyAuthorizeRequest");
                 break;
         }
+    }
+
+    @When("I sent a valid GET request to authorize endpoint with redirect uri is not registered")
+    public void iSentAValidGETRequestToAuthorizeEndpointWithRedirectUriIsNotRegistered() {
         Response verifyAuth = RestAssured.given()
                 .accept(ContentType.JSON)
                 .queryParam("client_id", clientIdValue)
                 .queryParam("response_type", responseTypeValue)
-                .queryParam("", invalid_JWT)
-                .when().post(ConfigurationReader.get("verifyDev"));
+                .queryParam("request", requestValue)
+                .queryParam("redirect_uri", "www.google.co.uk")
+                .when().post(ConfigurationReader.get("APIDev") + "/verifyAuthorizeRequest");
         verifyAuth.getBody().asString();
         Assert.assertEquals(401, verifyAuth.statusCode());
+    }
+
+    @When("I sent a valid GET request to authorize endpoint with invalid client id")
+    public void iSentAValidGETRequestToAuthorizeEndpointWithInvalidClientId() {
+        Response verifyAuth = RestAssured.given()
+                .accept(ContentType.JSON)
+                .queryParam("client_id", "invalid")
+                .queryParam("response_type", responseTypeValue)
+                .queryParam("request", requestValue)
+                .when().post(ConfigurationReader.get("APIDev") + "/verifyAuthorizeRequest");
+        verifyAuth.getBody().asString();
     }
 }
 
