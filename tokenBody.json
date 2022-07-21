@@ -1,0 +1,5 @@
+{
+  "code": "1ed49487-bae3-44f4-b2f4-57447a62e817",
+  "grant_type": "authorization_code",
+  "redirect_uri": "https://oidc.staging.account.gov.uk/doc-app-callback"
+}
