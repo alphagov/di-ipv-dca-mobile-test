@@ -5,8 +5,11 @@ Feature: End to end scenarios for the BE
     When the status code is valid
     Then the sessionId from verifyAuthorize is used in biometricToken endpoint
     And the sessionId from verifyAuthorize is used in finishBiometricSession endpoint
-    Then the sessionId from the response body is taken and used in authorizationCode with valid status code
-    When the authorizationCode from the response body is taken and used in token request with valid status code
-    Then the accessToken is retrieved from the response body and is used in userInfo request
+
+
+
+#    Then the sessionId from the response body is taken and used in authorizationCode with valid status code
+#    When the authorizationCode from the response body is taken and used in token request with valid status code
+#    Then the accessToken is retrieved from the response body and is used in userInfo request
 
 
